@@ -1,0 +1,65 @@
+{
+  "groups": [
+    {
+      "name": "synProperties",
+      "type": "com.izuche.datasyn.properties.DataSynProperties",
+      "sourceType": "com.izuche.datasyn.properties.DataSynProperties"
+    }
+  ],
+  "properties":[
+    {
+      "name": "spring.data.sync.type",
+      "type": "java.lang.String",
+      "sourceType": "com.izuche.datasyn.properties.DataSynProperties"
+    },{
+      "name": "spring.data.sync.sessionTimeOut",
+      "type": "java.lang.Integer",
+      "sourceType": "com.izuche.datasyn.properties.DataSynProperties"
+    },{
+      "name": "spring.data.sync.sendClass",
+      "type": "java.lang.Class",
+      "sourceType": "com.izuche.datasyn.properties.DataSynProperties"
+    },{
+      "name": "spring.data.sync.sendMethod",
+      "type": "java.lang.String",
+      "sourceType": "com.izuche.datasyn.properties.DataSynProperties"
+    },{
+      "name": "spring.data.sync.deleteMethod",
+      "type": "java.lang.String",
+      "sourceType": "com.izuche.datasyn.properties.DataSynProperties"
+    },{
+      "name": "spring.data.sync.send",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.izuche.datasyn.properties.DataSynProperties"
+    },{
+      "name": "spring.data.sync.receive",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.izuche.datasyn.properties.DataSynProperties"
+    },{
+      "name": "spring.data.sync.namespace",
+      "type": "java.lang.String",
+      "sourceType": "com.izuche.datasyn.properties.DataSynProperties"
+    },{
+      "name": "spring.data.sync.connectString",
+      "type": "java.lang.String",
+      "sourceType": "com.izuche.datasyn.properties.DataSynProperties"
+    },{
+      "name": "spring.data.sync.connectTimeOut",
+      "type": "java.lang.Integer",
+      "sourceType": "com.izuche.datasyn.properties.DataSynProperties"
+    },{
+      "name": "spring.data.sync.baseSleepTimeMs",
+      "type": "java.lang.Integer",
+      "sourceType": "com.izuche.datasyn.properties.DataSynProperties"
+    },{
+      "name": "spring.data.sync.maxRetries",
+      "type": "java.lang.Integer",
+      "sourceType": "com.izuche.datasyn.properties.DataSynProperties"
+    },{
+      "name": "spring.data.sync.threadNum",
+      "type": "java.lang.Integer",
+      "sourceType": "com.izuche.datasyn.properties.DataSynProperties"
+    }
+
+  ]
+}
