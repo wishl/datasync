@@ -42,13 +42,6 @@
                         <descriptor>src/main/assembly.xml</descriptor>
                     </descriptors>
                 </configuration>
-                <executions>
-                    <execution>
-                        <id>make-assembly</id>　　
-                        <phase>package</phase>
-                        <goals>single</goals>
-                    </execution>
-                </executions>
             </plugin>
         </plugins>
     </build>
